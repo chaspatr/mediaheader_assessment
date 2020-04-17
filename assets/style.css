@@ -54,7 +54,6 @@ header p {
   float: right;
   font-size: x-large;
   text-align: center;
-  margin-bottom: 5px;
 }
 
 .message_button {
@@ -105,7 +104,7 @@ header p {
 
 nav {
   text-align: center;
-  font-size: large;
+  font-size: medium;
   width: 850px;
   height: 50px;
   position: relative;
@@ -118,4 +117,44 @@ a {
   text-decoration: none;
   color: black;
   height: 50px;
+}
+
+.timeline_nav {
+  left: -90px;
+  top: 12px;
+  font-weight: bold;
+  padding-bottom: 14px;
+  border-bottom: 3px solid rgb(66, 103, 178);
+}
+
+.about_nav {
+  left: -60px;
+  top: 12px;
+  padding-top: 3px;
+  padding-right: 18px;
+  padding-bottom: 7px;
+  border-right: 1px solid rgba(128, 128, 128, 0.521);
+}
+
+.welcome_nav {
+  left: -45px;
+  top: 12px;
+  padding-top: 3px;
+  padding-right: 18px;
+  padding-bottom: 7px;
+  border-right: 1px solid rgba(128, 128, 128, 0.521);
+}
+
+.FWB_nav {
+  left: -30px;
+  top: 12px;
+  padding-top: 3px;
+  padding-right: 18px;
+  padding-bottom: 7px;
+  border-right: 1px solid rgba(128, 128, 128, 0.521);
+}
+
+.more_nav {
+  left: -10px;
+  top: 12px;
 }
