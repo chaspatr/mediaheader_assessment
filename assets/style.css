@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  width: 850px;
+  height: 300px;
+  background-color: rgb(66, 103, 178);
+  color: whitesmoke;
+  position: relative;
+  left: 500px;
+}
+
+.profilePicture {
+  border-radius: 3px;
+  height: 150px;
+  width: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  box-shadow: 1px 2px rgba(128, 128, 128, 0.37);
+  position: relative;
+  background-color: rgb(66, 103, 178);
+  top: 100px;
+  left: 15px;
+}
+
+header p {
+  font-size: large;
+}
+
+.pageTitle {
+  left: 200px;
+  top: 220px;
+  position: relative;
+}
