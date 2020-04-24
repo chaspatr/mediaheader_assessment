@@ -169,20 +169,93 @@ a {
 .additional_profile_content {
   float: left;
   width: 328px;
+  height: 200px;
   background-color: whitesmoke;
 }
-
+.additional_profile_content p,
+strong {
+  position: relative;
+  padding-left: 15px;
+  top: 40px;
+}
 .additional_profile_content p {
   color: rgb(66, 103, 178);
+  margin-top: 0px;
 }
 
 .additional_profile_content a {
   font-weight: bold;
   color: rgb(66, 103, 178);
 }
-
+.additional_profile_content strong {
+  border-top: 1px solid rgba(128, 128, 128, 0.521);
+  padding-top: 12px;
+  padding-left: 15px;
+  padding-right: 140px;
+}
 .news_feed {
   float: right;
   width: 512px;
   background-color: whitesmoke;
+}
+
+.website_link {
+  border-top: 1px solid rgba(128, 128, 128, 0.521);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  position: relative;
+  top: 40px;
+}
+
+.news_feed {
+  font-size: small;
+}
+
+.news_feed span:first-child {
+  font-weight: bold;
+  color: rgb(66, 103, 178);
+}
+
+.news_feed span:last-child {
+  color: rgb(66, 103, 178);
+}
+
+.news_feed p {
+  color: darkgrey;
+}
+
+.news_feed .update_details {
+  margin-bottom: 0px;
+  padding-top: 8px;
+}
+
+.news_feed .update_time_punch {
+  margin-top: 2px;
+}
+
+#main_content .profile_picture_small {
+  border-radius: 1px;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 15px;
+  background-color: rgb(66, 103, 178);
+}
+
+.update_content {
+  height: 180px;
+  width: 500px;
+  margin: 6px;
+  float: left;
+  padding: 5px;
+  background-color: rgb(66, 103, 178);
+}
+
+.reader_interaction_bar {
+  float: left;
+  color: rgb(66, 103, 178);
+  padding: 10px 365px 10px 10px;
+  border-top: 1px solid rgba(128, 128, 128, 0.521);
 }
