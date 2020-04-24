@@ -120,7 +120,7 @@ a {
 }
 
 .timeline_nav {
-  left: -90px;
+  left: -80px;
   top: 12px;
   font-weight: bold;
   padding-bottom: 14px;
@@ -128,7 +128,7 @@ a {
 }
 
 .about_nav {
-  left: -60px;
+  left: -50px;
   top: 12px;
   padding-top: 3px;
   padding-right: 18px;
@@ -137,7 +137,7 @@ a {
 }
 
 .welcome_nav {
-  left: -45px;
+  left: -35px;
   top: 12px;
   padding-top: 3px;
   padding-right: 18px;
@@ -146,7 +146,7 @@ a {
 }
 
 .FWB_nav {
-  left: -30px;
+  left: -20px;
   top: 12px;
   padding-top: 3px;
   padding-right: 18px;
@@ -155,6 +155,34 @@ a {
 }
 
 .more_nav {
-  left: -10px;
+  left: 0px;
   top: 12px;
+}
+
+#main_content {
+  width: 850px;
+  position: relative;
+  left: 500px;
+  top: 20px;
+}
+
+.additional_profile_content {
+  float: left;
+  width: 328px;
+  background-color: whitesmoke;
+}
+
+.additional_profile_content p {
+  color: rgb(66, 103, 178);
+}
+
+.additional_profile_content a {
+  font-weight: bold;
+  color: rgb(66, 103, 178);
+}
+
+.news_feed {
+  float: right;
+  width: 512px;
+  background-color: whitesmoke;
 }
